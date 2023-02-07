@@ -1,0 +1,31 @@
+.login-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+}
+.form-container {
+  background-color: #272727;
+  padding: 25px;
+  color: #ffffff;
+  font-family: roboto;
+}
+.input {
+  margin-bottom: 10px;
+}
+.label {
+  margin-top: 25px;
+}
+.login {
+  background-color: #6366f1;
+  border-style: none;
+  color: #ffffff;
+  padding: 5px;
+  width: 170px;
+}
+.err-msg {
+  color: #ff0b37;
+  font-size: 12px;
+}
